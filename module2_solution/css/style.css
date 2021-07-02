@@ -12,6 +12,7 @@ section{
     margin: 10px;
     padding-left: 5px;
     min-height:fit-content;
+    position: relative;
 }
 h1{
     font-size: 30px;
