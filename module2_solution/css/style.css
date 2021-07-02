@@ -1,45 +1,27 @@
 * {
     box-sizing: border-box;
     margin:0px;
-    padding: 0;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
   }
 body{
-    margin-top: 20px;
-    margin-left: 10px;
     background-color: darksalmon;
 }
 section{
     border: 2px solid black;
-    margin-bottom: 10px;
-}
-.sub{
-    border:black;
-    background-color: cornsilk;
-    border-width: 2px;
-    border-color: black;
-    border-style: solid;
-}
-.vsc{
-    border-color: black;
-    background-color: blanchedalmond;
-    border-width: 2px;
-    border-color: black;
-    border-style: solid;
-}
-.atom{
-    border-color: black;
-    background-color: rgb(206, 188, 165);
-    border-width: 2px;
-    border-color: black;
-    border-style: solid;
-}
-.row {
-    width: 100%;
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-height: 438px;
 }
 h1{
     font-size: 30px;
     text-align: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+ul{
+    text-decoration: underline;
 }
 section>h2{
     float: right;
@@ -54,6 +36,50 @@ section>h2{
     height: 45px;
     padding-top: 10px;
 }
-p{
+section>p{
     font-size: 17px;
+    padding-top: 10px;
+}
+.sub{
+    background-color: cornsilk;
+}
+.vsc{
+    background-color: blanchedalmond;
+}
+.atom{
+    background-color: rgb(206, 188, 165);
+}
+.row {
+    width: 100%;
+}
+/*Laptop*/
+@media (min-device-width : 992px){
+    .desk-4{
+        float: left;
+        width:33.33%
+    }
+}
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px){
+    .atom{
+        min-height: fit-content;
+    }
+    .tab-6{
+        float: left;
+        width: 50%;
+    }
+    .tab-12{
+        float: left;
+        width: 100%;
+    }
+}
+/*Mobile*/
+@media (max-width: 767px){
+    section{
+        min-height: fit-content;
+    }
+    .mob-12{
+        float: left;
+        width: 100%;
+    }
 }
