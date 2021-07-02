@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin:0px;
+    margin:100px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -23,6 +23,10 @@ ul{
     text-decoration: underline;
 }
 h2{
+<<<<<<< HEAD
+=======
+     float: right;
+>>>>>>> 78ba92c83290a2c4add1cc2f44a0d232ff5e4f74
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     margin: 0;
@@ -96,7 +100,11 @@ section>p{
         float: left;
         width: 100%;
     }
+<<<<<<< HEAD
     h2{
         margin-left: 470px;
     }
 }
+=======
+}
+>>>>>>> 78ba92c83290a2c4add1cc2f44a0d232ff5e4f74
