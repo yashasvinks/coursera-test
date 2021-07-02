@@ -24,7 +24,6 @@ ul{
     text-decoration: underline;
 }
 h2{
-    float: right;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     margin: 0;
@@ -36,6 +35,7 @@ h2{
     height: 45px;
     padding-top: 10px;
     position: relative;
+    float:left
 }
 section>p{
     font-size: 17px;
