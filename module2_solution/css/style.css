@@ -23,11 +23,7 @@ ul{
     text-decoration: underline;
 }
 h2{
-<<<<<<< HEAD
-=======
-     float: right;
->>>>>>> 78ba92c83290a2c4add1cc2f44a0d232ff5e4f74
-    border-bottom: 1px solid black;
+    float: right;
     border-left: 1px solid black;
     margin: 0;
     width: 230px;
@@ -100,11 +96,7 @@ section>p{
         float: left;
         width: 100%;
     }
-<<<<<<< HEAD
     h2{
         margin-left: 470px;
     }
 }
-=======
-}
->>>>>>> 78ba92c83290a2c4add1cc2f44a0d232ff5e4f74
