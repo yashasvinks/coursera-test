@@ -23,7 +23,7 @@ h1{
 ul{
     text-decoration: underline;
 }
-section>h2{
+h2{
     float: right;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
